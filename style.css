@@ -1,0 +1,22 @@
+img {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+li {
+    width: 25px;
+}
+
+button {
+    position: relative;
+    left: 150px;
+}
+
+.remove {
+    background-color: red;
+}
+/* 
+#edit {
+    background-color: aquamarine;
+} */
