@@ -1,0 +1,70 @@
+body {
+    background-color: #74aaff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 3.5em;
+}
+
+p {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.4em;
+}
+
+input { 
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;   
+    
+}
+
+input:hover {
+    border-color: #ccc;
+
+}
+
+input:focus {
+    border-color: #9147ff;
+    background: #fff;
+}
+
+li {
+    display: block;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.7em;
+}
+
+button {
+    font-size: 0.8em;
+    position: relative;
+}
+
+.remove {
+    background-color: #fffaf3;
+    padding: none;
+    margin-left: 25px;
+}
+
+#edit {
+    margin-top: 50px;
+    font-size: 0.8em;
+    background-color: #74aaff;
+
+}
+
+#aviso { 
+    color: rgb(85, 88, 105);
+}
